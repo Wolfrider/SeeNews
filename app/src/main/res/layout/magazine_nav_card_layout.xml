@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/magazine_nav_image_width"
+    android:layout_height="@dimen/magazine_nav_image_height">
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/magazine_nav_card_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@+id/magazine_nav_card_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#4D000000"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/magazine_reader_nav_text_size"/>
+</RelativeLayout>

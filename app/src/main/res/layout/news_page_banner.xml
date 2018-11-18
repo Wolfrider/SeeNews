@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/news_page_banner_height">
+    <com.tmall.ultraviewpager.UltraViewPager
+        android:id="@+id/news_page_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.oliver.seenews.widget.BannerIndicator
+        android:id="@+id/news_page_banner_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/banner_indicator_height"
+        android:layout_marginBottom="@dimen/news_page_banner_indicator_margin_bottom"
+        android:layout_marginRight="@dimen/news_page_banner_indicator_margin_right"
+        android:orientation="horizontal"
+        android:layout_gravity="end|bottom"/>
+</FrameLayout>

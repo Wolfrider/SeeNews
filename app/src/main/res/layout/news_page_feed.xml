@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:paddingTop="@dimen/news_page_feed_padding_top"
+    android:paddingBottom="@dimen/news_page_feed_padding_bottom">
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/news_page_feed_image"
+        android:layout_width="@dimen/news_page_feed_image_width"
+        android:layout_height="@dimen/news_page_feed_image_height"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/news_page_feed_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/news_page_feed_title_margin_left"
+        android:layout_marginRight="@dimen/news_page_feed_title_margin_right"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/news_page_feed_image"
+        android:maxEms="10"
+        android:textStyle="bold"
+        android:textSize="@dimen/news_page_feed_title_text_size"
+        android:lines="1"
+        android:ellipsize="end"
+        tools:text="This is a title"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/news_page_feed_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/news_page_feed_title_margin_left"
+        android:layout_marginRight="@dimen/news_page_feed_title_margin_right"
+        android:layout_marginTop="@dimen/news_page_feed_intro_margin_top"
+        app:layout_constraintTop_toBottomOf="@id/news_page_feed_title"
+        app:layout_constraintLeft_toRightOf="@id/news_page_feed_image"
+        android:maxEms="50"
+        android:textSize="@dimen/news_page_feed_intro_text_size"
+        android:lines="2"
+        android:ellipsize="end"
+        tools:text="This is a introduction."/>
+
+</android.support.constraint.ConstraintLayout>

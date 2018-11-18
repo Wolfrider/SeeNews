@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="banner_indicator_unselected_radius">6dp</dimen>
+    <dimen name="banner_indicator_selected_radius">8dp</dimen>
+    <dimen name="banner_indicator_width">12dp</dimen>
+    <dimen name="banner_indicator_height">12dp</dimen>
+</resources>

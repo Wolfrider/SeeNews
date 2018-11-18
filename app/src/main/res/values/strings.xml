@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">看世界</string>
+    <string name="home_news">资讯</string>
+    <string name="home_magazine">杂志</string>
+    <string name="home_clear">清除缓存</string>
+    <string name="news_page_loading">正在加载中....</string>
+    <string name="magazine_vol_format">第%d期</string>
+    <string name="magazine_detail_title">杂志详情</string>
+    <string name="magazine_detail_free_download">免费下载</string>
+    <string name="magazine_detail_start_read">开始阅读</string>
+    <string name="magazine_detail_content">内容介绍</string>
+    <string name="magazine_detail_comment">评论</string>
+    <string name="magazine_nav_title">目录</string>
+    <string name="clear_tips">已清除缓存，%.2f M</string>
+</resources>
